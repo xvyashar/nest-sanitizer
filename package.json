@@ -1,0 +1,48 @@
+{
+  "name": "nest-sanitizer",
+  "version": "1.0.0",
+  "description": "All-in-one NestJS compatible pipe to sanitize your input data from malicious things.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\" --fix"
+  },
+  "keywords": [
+    "nestjs",
+    "sanitizer",
+    "pipe",
+    "plugin",
+    "security",
+    "xss",
+    "html",
+    "xml",
+    "html-sanitizer",
+    "mongo-sanitizer",
+    "sql-sanitizer",
+    "xml-sanitizer",
+    "nosql",
+    "nosql-injection",
+    "mongo",
+    "mongodb",
+    "sql"
+  ],
+  "author": "XV Yashar",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^10.3.9",
+    "@nestjs/core": "^10.3.9",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.1",
+    "rimraf": "^5.0.7"
+  }
+}

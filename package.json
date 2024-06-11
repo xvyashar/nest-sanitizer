@@ -4,6 +4,9 @@
   "description": "All-in-one NestJS compatible pipe to sanitize your input data from malicious things.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "format": "prettier --write \"src/**/*.ts\"",

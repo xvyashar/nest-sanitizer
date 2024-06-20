@@ -4,7 +4,9 @@ import { SanitizerOptions } from './types';
 
 @Injectable()
 export class SanitizerPipe implements PipeTransform {
-  constructor(private readonly options?: SanitizerOptions) {}
+  constructor(private readonly options?: SanitizerOptions) {
+    console.log(this.options);
+  }
 
   transform(value: any, metadata: ArgumentMetadata) {
     console.log('metadata:', metadata);

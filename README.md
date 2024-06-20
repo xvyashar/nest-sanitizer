@@ -2,7 +2,7 @@
 
 All-in-one NestJS compatible pipe to sanitize your input data from malicious things.
 
-> In progress
+> Under development...
 
 # License
 
